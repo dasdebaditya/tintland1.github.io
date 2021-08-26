@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.tint-form-o{
+    width: 100%;
+    height: 490px;
+}
+
+.owl-prev,
+.owl-next {
+    display: none;
+}
+
+.aplybtnsec {
+    display: none;
+}
+
+.fa {
+    display: none;
+}
+
+.message,
+.help-block {
+    color: #ee0101 !important;
+    float: right;
+    margin: 3px auto;
+}
+
+.parallax {
+    position: relative;
+    min-height: 100%;
+    background-image: url(images/TINT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 110px;
+}
+
+@media only screen and (max-width:767px) {
+    .parallax {
+        padding-top: 0px;
+    }
+
+    .dist_text {
+        font-size: small;
+    }
+}
